@@ -27,3 +27,12 @@ function applyDiscount(products, discountRate) {
 }
 
 console.log(applyDiscount(products, 0.1));
+
+function sum3(x, y, z) {
+    return x + y + z;
+}
+
+let numbers = [1, 2, 3]; //iterable
+let someObject = { x: 1, y: 2, z: 3 }; //iterable
+
+console.log(sum3(...numbers));
