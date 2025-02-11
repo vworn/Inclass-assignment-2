@@ -36,3 +36,14 @@ let numbers = [1, 2, 3]; //iterable
 let someObject = { x: 1, y: 2, z: 3 }; //iterable
 
 console.log(sum3(...numbers));
+
+// Task 3
+
+let sales = [250, 400, 150, 900, 1200];
+function calculateTotalRevenue(sales) {
+   
+    return sales.reduce((total, sale) => total + sale, 0);
+
+}
+
+console.log(calculateTotalRevenue(sales));
